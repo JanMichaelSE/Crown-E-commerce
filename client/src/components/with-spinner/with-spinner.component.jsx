@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Spinner from '../spinner/spinner.component';
 
 const WithSpinner = (WrapperComponent) => ({ isLoading, ...otherProps }) => {
